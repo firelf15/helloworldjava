@@ -4,7 +4,6 @@
  */
 class HelloWorld {
     public static void main(String[] args) {
-      String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        System.out.println("Hello Pern!" + timeStamp); // Display the string with a timestamp.
+        System.out.println("Hello Pern!"); // Display the string.
     }
 }
