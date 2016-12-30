@@ -8,4 +8,4 @@ class HelloWorld {
     }
 }
 
-// results/logs/$(date -d "today" +"%Y%m%d%H%M").txt
+// results/$(date "+%Y.%m.%d-%H.%M.%S")_hello.txt
