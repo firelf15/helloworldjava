@@ -7,3 +7,5 @@ class HelloWorld {
         System.out.println("Hello Middle-Earth!"); // Display the string.
     }
 }
+
+// results/logs/$(date -d "today" +"%Y%m%d%H%M").txt
