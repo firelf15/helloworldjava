@@ -4,6 +4,7 @@
  */
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Middle-Earth!"); // Display the string.
+      String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+        System.out.println("Hello Middle-Earth!" + timeStamp); // Display the string with a timestamp.
     }
 }
